@@ -26,7 +26,6 @@ jobs:
     - name: NDepend
       uses: CoderGears/ndepend-action@v1
       with:
-        milliseconds: 1000
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
         NDependLicense: ${{ secrets.NDependLicense }}
         

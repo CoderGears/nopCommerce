@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 
+
 namespace Nop.Core.ComponentModel
 {
     /// <summary>

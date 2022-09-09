@@ -13,6 +13,7 @@ namespace Nop.Core.Caching
     {
         #region Ctor
 
+            
         /// <summary>
         /// Initialize a new instance with key and prefixes
         /// </summary>

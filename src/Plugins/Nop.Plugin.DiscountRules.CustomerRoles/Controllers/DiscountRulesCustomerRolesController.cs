@@ -34,6 +34,7 @@ namespace Nop.Plugin.DiscountRules.CustomerRoles.Controllers
         #endregion
 
         #region Ctor
+        
 
         public DiscountRulesCustomerRolesController(ICustomerService customerService,
             IDiscountService discountService,

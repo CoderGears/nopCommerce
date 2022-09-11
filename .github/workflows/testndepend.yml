@@ -27,5 +27,5 @@ jobs:
       uses: CoderGears/ndepend-action@v1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-        NDependLicense: ${{ secrets.NDependLicense }}
+        license: ${{ secrets.NDependLicense }}
         

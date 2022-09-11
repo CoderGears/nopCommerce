@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: dotnet build ./src/NopCommerce.sln --configuration Release --no-restore
     - name: Test
-      run: dotnet test ./src/NopCommerce.sln --collect:"Code Coverage" --no-restore --verbosity normal
+      run: dotnet test ./src/NopCommerce.sln --collect:"Code Coverage"  --no-restore --verbosity normal
     - name: NDepend
       uses: CoderGears/ndepend-action@v1
       with:

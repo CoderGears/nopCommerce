@@ -31,4 +31,3 @@ jobs:
         solution: src/nopCommerce.sln
         baseline: 'recent'
         
-        

@@ -30,4 +30,3 @@ jobs:
         license: ${{ secrets.NDependLicense }}
         solution: src/nopCommerce.sln
         baseline: 'recent'
-        
